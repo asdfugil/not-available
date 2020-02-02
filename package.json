@@ -1,6 +1,6 @@
 {
-  "name": "not-avaliable",
-  "version": "1.0.0",
+  "name": "not-available",
+  "version": "1.1.1",
   "description": "Converts empty object,empty array, empty string,NaN,null or undefined into the string \"N/A\" else return the input as-is",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "null",
     "NaN"
   ],
+  "repository": "github:Assfugil/not-available",
   "author": "Nick Chan#0001",
   "license": "ISC"
 }

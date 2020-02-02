@@ -8,5 +8,6 @@ module.exports = input => {
     if (typeof input === 'object') if (Object.keys(input).length === 0) return "N/A"
     if (input instanceof Array) if (input.length === 0) return "N/A"
     if (typeof input === 'number')  if (isNaN(input)) return "N/A"
+    if (input instanceof  Map && input.size === 0) return "N/A"
     return input
 }
