@@ -1,0 +1,18 @@
+{
+  "name": "not-avaliable",
+  "version": "1.0.0",
+  "description": "Converts empty object,empty array, empty string,NaN,null or undefined into the string \"N/A\" else return the input as-is",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "n/a",
+    "not-available",
+    "undefined",
+    "null",
+    "NaN"
+  ],
+  "author": "Nick Chan#0001",
+  "license": "ISC"
+}
